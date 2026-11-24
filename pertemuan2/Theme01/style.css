@@ -1,0 +1,39 @@
+/*
+Theme Name: TokoKu
+Author: Nama Anda
+Description: Tema E-Commerce custom siap Elementor & WooCommerce
+Version: 1.0
+Text Domain: tokoku
+*/
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+.bg-brand { background-color: #4f46e5 !important; }
+.text-brand { color: #4f46e5 !important; }
+.btn-brand { background-color: #4f46e5; color: #ffffff; border: none; }
+.btn-brand:hover { background-color: #4338ca; color: #ffffff; }
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.08);
+}
+
+/* Styling untuk WordPress Nav Menu agar sesuai Bootstrap */
+.navbar-nav .menu-item a {
+  color: #1e293b;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+.navbar-nav .current-menu-item a,
+.navbar-nav .menu-item a:hover {
+  color: #4f46e5;
+}
